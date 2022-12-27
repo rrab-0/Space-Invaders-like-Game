@@ -239,7 +239,7 @@ void musuh3(float xp, float yp, float scale){
 void menu(){
     while(1){
         if(GetAsyncKeyState(VK_SPACE)<0){
-            sndPlaySound("coin.wav",SND_ASYNC);
+            sndPlaySound("assets/sound-effect/coin.wav",SND_ASYNC);
             controls();
         }
         if(GetAsyncKeyState(VK_ESCAPE)<0){
@@ -249,7 +249,7 @@ void menu(){
         outtextxy(170, 200, "Space and Monsters");
         outtextxy(140, 400, "Press 'Space' to play");
         outtextxy(140, 450, "      'Esc' to exit");
-        readimagefile("fixx.jpg",0,0,1280,720);
+        readimagefile("assets/images/fixx.jpg",0,0,1280,720);
     }
 }
 
@@ -265,9 +265,9 @@ void controls(){
         outtextxy(100, 350, "Use your mouse to move");
         outtextxy(0, 10, "'Esc' to exit the game");
         outtextxy(95, 450, "Press 'Space' to continue");
-        readimagefile("fixx.jpg",0,0,1280,720);
+        readimagefile("assets/images/fixx.jpg",0,0,1280,720);
         if(GetAsyncKeyState(VK_SPACE)<0){
-            sndPlaySound("coin.wav",SND_ASYNC);
+            sndPlaySound("assets/sound-effect/coin.wav",SND_ASYNC);
             game();
         }
         if(GetAsyncKeyState(VK_ESCAPE)<0){
@@ -291,9 +291,9 @@ void victory(){
         outtextxy(45, 350, "'Escape' to exit");
         outtextxy(45, 400, "'F1' to main menu");
         outtextxy(45, 450, "'Space' to restart your session!");
-        readimagefile("fixx.jpg",0,0,1280,720);
+        readimagefile("assets/images/fixx.jpg",0,0,1280,720);
         if(GetAsyncKeyState(VK_SPACE)<0){
-            sndPlaySound("coin.wav",SND_ASYNC);
+            sndPlaySound("assets/sound-effect/coin.wav",SND_ASYNC);
             game();
         }
         if(GetAsyncKeyState(VK_ESCAPE)<0){
@@ -318,9 +318,9 @@ void wonr1(){
         outtextxy(50, 250, "You won first round!");
         outtextxy(45, 350, "'Escape' to exit");
         outtextxy(45, 400, "'Space' to go to the next round!");
-        readimagefile("fixx.jpg",0,0,1280,720);
+        readimagefile("assets/images/fixx.jpg",0,0,1280,720);
         if(GetAsyncKeyState(VK_SPACE)<0){
-            sndPlaySound("coin.wav",SND_ASYNC);
+            sndPlaySound("assets/sound-effect/coin.wav",SND_ASYNC);
             round2();
         }
         if(GetAsyncKeyState(VK_ESCAPE)<0){
@@ -342,9 +342,9 @@ void wonr2(){
         outtextxy(50, 250, "You won second round!");
         outtextxy(45, 350, "'Escape' to exit");
         outtextxy(45, 400, "'Space' to go to the next round!");
-        readimagefile("fixx.jpg",0,0,1280,720);
+        readimagefile("assets/images/fixx.jpg",0,0,1280,720);
         if(GetAsyncKeyState(VK_SPACE)<0){
-            sndPlaySound("coin.wav",SND_ASYNC);
+            sndPlaySound("assets/sound-effect/coin.wav",SND_ASYNC);
             round3();
         }
         if(GetAsyncKeyState(VK_ESCAPE)<0){
@@ -383,7 +383,7 @@ void game(){
         setvisualpage(1-page);
         cleardevice();
         //background
-        readimagefile("fixx.jpg",0,0,1280,720);
+        readimagefile("assets/images/fixx.jpg",0,0,1280,720);
         //awan
         xp3 = xp3-4;
         if  (xp3<-120)
@@ -413,7 +413,7 @@ void game(){
             for(int i=0;i<10;i++){
                 if(kenapeluru[i]==0)
                 {
-                    sndPlaySound("fixbangetCOPIUM.wav",SND_ASYNC);
+                    sndPlaySound("assets/sound-effect/fixbangetCOPIUM.wav",SND_ASYNC);
                     xpeluru[i]=xa+23;
                     ypeluru[i]=ya-27;
                     kenapeluru[i]=1;
@@ -507,7 +507,7 @@ void round2(){
         setvisualpage(1-page);
         cleardevice();
         //background
-        readimagefile("fixx.jpg",0,0,1280,720);
+        readimagefile("assets/images/fixx.jpg",0,0,1280,720);
         //awan
         xp3 = xp3-4;
         if  (xp3<-120)
@@ -537,7 +537,7 @@ void round2(){
             for(int i=0;i<10;i++){
                 if(kenapeluru[i]==0)
                 {
-                    sndPlaySound("fixbangetCOPIUM.wav",SND_ASYNC);
+                    sndPlaySound("assets/sound-effect/fixbangetCOPIUM.wav",SND_ASYNC);
                     xpeluru[i]=xa+23;
                     ypeluru[i]=ya-27;
                     kenapeluru[i]=1;
@@ -633,7 +633,7 @@ void round3(){
         setvisualpage(1-page);
         cleardevice();
         //background
-        readimagefile("fixx.jpg",0,0,1280,720);
+        readimagefile("assets/images/fixx.jpg",0,0,1280,720);
         //awan
         xp3 = xp3-4;
         if  (xp3<-120)
@@ -663,7 +663,7 @@ void round3(){
             for(int i=0;i<10;i++){
                 if(kenapeluru[i]==0)
                 {
-                    sndPlaySound("fixbangetCOPIUM.wav",SND_ASYNC);
+                    sndPlaySound("assets/sound-effect/fixbangetCOPIUM.wav",SND_ASYNC);
                     xpeluru[i]=xa+23;
                     ypeluru[i]=ya-27;
                     kenapeluru[i]=1;

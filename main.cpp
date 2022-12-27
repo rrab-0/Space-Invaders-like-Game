@@ -5,6 +5,7 @@
 #include <time.h>
 #include <stdio.h>
 #include <stdlib.h>
+// #pragma comment(lib, "winmm.lib")
 
 void menu();
 void controls();
@@ -239,7 +240,7 @@ void musuh3(float xp, float yp, float scale){
 void menu(){
     while(1){
         if(GetAsyncKeyState(VK_SPACE)<0){
-            sndPlaySound("assets/sound-effect/coin.wav",SND_ASYNC);
+            sndPlaySound("assets/sound-effect/coin.wav", SND_ASYNC);
             controls();
         }
         if(GetAsyncKeyState(VK_ESCAPE)<0){

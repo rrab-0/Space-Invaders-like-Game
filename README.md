@@ -7,6 +7,5 @@ to run the game you need to,
 - go to the terminal and type ./*the-built-exe-name*
 - for this game type in ./main
 
-
-this was from https://www.youtube.com/watch?v=J0_vt-7Ok6U&t=2142s
-or CodeWar on youtube
+reference :
+https://www.youtube.com/watch?v=J0_vt-7Ok6U&t=2142s

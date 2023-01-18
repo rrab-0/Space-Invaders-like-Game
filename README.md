@@ -1,5 +1,12 @@
 to run the game you need to,
 
+download release
+  - Space.and.Monsters.7z
+  - extract to folder
+  - run .exe
+
+or,
+
 - make a new terminal
 - from the terminal tab select run task
 - select C/C++: g++.exe build active file

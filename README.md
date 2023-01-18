@@ -7,6 +7,7 @@ download release
 
 or,
 
+- go to vscode
 - make a new terminal
 - from the terminal tab select run task
 - select C/C++: g++.exe build active file

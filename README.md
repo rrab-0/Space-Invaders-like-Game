@@ -1,4 +1,4 @@
-![gameplay](https://giphy.com/gifs/c6BoGIknx1qj0V6N9l)
+![gameplay](https://github.com/rrab-0/Space-Invaders-like-Game/blob/master/assets/images/gameplay-gif.gif)
 
 
 

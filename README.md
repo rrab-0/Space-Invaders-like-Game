@@ -1,3 +1,8 @@
+![gameplay](https://giphy.com/gifs/c6BoGIknx1qj0V6N9l)
+
+
+
+
 to run the game you need to,
 
 download release
